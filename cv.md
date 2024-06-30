@@ -61,10 +61,15 @@ English - B1+; Russian, Belarusian - native
 ASP.NET Core, SQL, Front-End, business development, sales management, HR for managers, and finance management.
 
 ```javascript
-const func = (num) => {
-  if (num > 0) {
-    return num - 1;
-  }
-  return num + 1;
+var twoSum = function(nums, target) {
+    const pairIdx = {};
+
+    for (let i = 0; i < nums.length; i++) {
+        const num = nums[i];
+        if (target - num in pairIdx) {
+            return [i, pairIdx[target - num]];
+        }
+        pairIdx[num] = i;
+    }    
 };
 ```
