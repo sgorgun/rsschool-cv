@@ -1,3 +1,4 @@
+![Photo](/sg.jpg)
 # Sergei Gorgun
 >.NET Software Engineer
 
