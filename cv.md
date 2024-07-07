@@ -23,7 +23,7 @@ As a student at EPAM School of Digital Engineering pursuing a Master’s degree 
 * Project Management  
 * Business Strategy  
 
-## Experiences
+## Experience
 
 2022 - until now  
 *Student (evening and sessional education)*  

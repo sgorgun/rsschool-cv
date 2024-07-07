@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header role="banner">
+    <header>
         <nav>
             <ul>
                 <li><a href="#contacts">Contacts</a></li>
@@ -19,10 +19,10 @@
             </ul>
         </nav>
     </header>
-    <main role="main">
+    <main>
         <div class="row">
             <div class="column">
-                <img src="sg.jpg" alt="Sergei Gorgun"/>
+                <img src="./sg.jpg" alt="Sergei Gorgun"/>
                 <h1 id="contacts">Sergei Gorgun</h1>
                 <h3>Junior Fullstack .NET Engineer</h3>
                 <h2>Contacts:</h2>
@@ -111,34 +111,31 @@
                     <br>
                     1996 - 2001
                 </p>
-                <p>Completed training projects <a href="https://github.com/sgorgun" class="footer__link">here</a></p>
-                <p>
-                    <h2 id="code">Code:</h2>
-                    <pre>
+                <p>Completed training projects <a href="https://github.com/sgorgun">here</a></p>
+                <h2 id="code">Code:</h2>
+                <pre>
                     <code>
-                    var twoSum = function(nums, target) {
-                        const pairIdx = {};
+                        var twoSum = function(nums, target) {
+                            const pairIdx = {};
 
-                        for (let i = 0; i < nums.length; i++) {
-                            const num = nums[i];
-                            if (target - num in pairIdx) {
-                                return [i, pairIdx[target - num]];
-                            }
-                            pairIdx[num] = i;
-                        }    
-                    };
+                            for (let i = 0; i < nums.length; i++) {
+                                const num = nums[i];
+                                if (target - num in pairIdx) {
+                                    return [i, pairIdx[target - num]];
+                                }
+                                pairIdx[num] = i;
+                            }    
+                        };
                     </code>
-                    </pre>
-                </p>
+                </pre>
             </div>
         </div>
     </main>
-    
-    <footer role="contentinfo">
+    <footer>
         <div class="footer__block">
             <div class="footer__text" style="text-align: center;">
                 <a href="https://rs.school/courses/javascript">
-                    <img src="/rs-logo.svg" class="footer__image" alt="RS School logo" style="width: 10%;">
+                    <img src="./rs-logo.svg" class="footer__image" alt="RS School logo" style="width: 10%;">
                 </a>
                 <br>
                 <a href="https://rs.school/courses/javascript" class="footer__link">course 2024</a>
